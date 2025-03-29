@@ -1,14 +1,14 @@
-# Date Class in Java
+# Java Date Class Implementation
 
 ## Project Overview
-This project contains a simple `Date` class in Java that handles basic date operations like validation, updating, printing, and calculating differences between dates. The `Main` class demonstrates how to use the `Date` class with example dates.
+This project implements a `Date` class in Java to handle date-related operations, including validation, day-of-week calculation, date difference computation, and sorting. Key features include:
+- Date validation (including leap year handling).
+- Updating dates with validity checks.
+- Calculating the day of the week using Zeller's Congruence.
+- Finding the difference in days between two dates.
+- Sorting dates chronologically using `Comparable<Date>`.
 
-## Additional Notes
-- The `Date` class uses a simplified date validation and difference calculation for educational purposes.
-- Dates are validated based on basic rules without accounting for leap years.
-- The difference calculation assumes each month has 30 days and each year has 360 days.
+## Compilation and Execution
+### Prerequisites
+- Java JDK 
 
-## Challenges
-- Understanding how to structure classes and methods in Java.
-- Implementing basic date validation logic.
-- Handling invalid dates gracefully with appropriate messages.
